@@ -3,6 +3,8 @@
   * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
+import bootstrap from 'bootstrap'
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@popperjs/core')) :
   typeof define === 'function' && define.amd ? define(['@popperjs/core'], factory) :
