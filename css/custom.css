@@ -1,5 +1,7 @@
 body {
-    background-color: #282828;
+    background-image: url('/imgs/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
     color: #ebdbb2;
     font-family: 'Roboto Mono';
 }
@@ -7,5 +9,20 @@ body {
 .test 
 {
   margin: 0% 16%;
-  padding-top: 15px;
+  padding-top: 30px;
+}
+
+.card
+{
+  background-color: #282828;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.card-body
+{
+  background-color:#282828;
+  max-width: 300px;
+  margin: auto;
 }
