@@ -33,12 +33,13 @@ body {
 }
 
 .btn-circle {
-    width: 30px;
-    height: 30px;
-    padding: 7px 0px;
-    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    padding-top: 8.5px;
+    padding-left: 8px;
+    border-radius: 17.5px;
     text-align: center;
-    font-size: 16px;
+    font-size: 17.5px;
     line-height: 1.42857;
     color:#ebdbb2;
 }
