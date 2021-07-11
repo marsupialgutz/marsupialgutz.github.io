@@ -5,12 +5,6 @@ body {
     font-family: 'Roboto Mono';
 }
 
-.test 
-{
-  margin: 0% 16%;
-  padding-top: 30px;
-}
-
 .card
 {
   background-color: #282828;
@@ -42,4 +36,8 @@ body {
     font-size: 17.5px;
     line-height: 1.42857;
     color:#ebdbb2;
+}
+
+.spotify-song {
+    padding-top: 0px;
 }
