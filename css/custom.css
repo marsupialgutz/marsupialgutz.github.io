@@ -3,6 +3,7 @@ body {
     background-position: center;
     color: #ebdbb2;
     font-family: 'Roboto Mono';
+    src: local('Roboto Mono'), local('RobotoMono'), url(https://fonts.gstatic.com/s/robotomono/v13/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');
 }
 
 .card
