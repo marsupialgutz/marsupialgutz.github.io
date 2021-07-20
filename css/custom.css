@@ -58,7 +58,7 @@ body {
 a.btn > svg {
   display: inline !important;
   vertical-align: middle !important;
-  padding-top: 2px;
+  padding-top: 3px;
   width: 24px;
   height: 24px;
   color: #ebdbb2;
