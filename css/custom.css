@@ -33,14 +33,9 @@ body {
 }
 
 .btn-circle {
-    width: 35px;
-    height: 35px;
-    padding-top: 8.5px;
-    padding-left: 8.5px;
-    border-radius: 17.5px;
-    text-align: center;
-    font-size: 17.5px;
-    line-height: 1.42857;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
     color:#ebdbb2;
 }
 
@@ -50,4 +45,21 @@ body {
 
 .flex-container {
   display: flex;
+}
+
+.btn {
+  padding: 0px !important;
+}
+
+.btn-lg {
+  padding: 0px !important;
+}
+
+a.btn > svg {
+  display: inline !important;
+  vertical-align: middle !important;
+  padding-top: 3px;
+  width: 24px;
+  height: 24px;
+  color: #ebdbb2;
 }
