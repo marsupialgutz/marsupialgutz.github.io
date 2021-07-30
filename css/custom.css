@@ -1,9 +1,9 @@
 body {
-    background-image: url('/imgs/bg.jpeg');
-    background-color:#282828;
-    background-position: center;
-    font-family: 'Roboto Mono';
-    color: #ebdbb2;
+  background-image: url('/imgs/bg.jpeg');
+  background-color: #282828;
+  background-position: center;
+  font-family: 'Roboto Mono';
+  color: #ebdbb2;
 }
 
 @font-face {
@@ -11,36 +11,33 @@ body {
   src: local('Roboto Mono'), local('RobotoMono'), url(https://fonts.gstatic.com/s/robotomono/v13/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');
 }
 
-.card
-{
+.card {
   background-color: #282828;
   max-width: 750px;
   margin: auto;
   margin-top: 30px;
 }
 
-.card-body
-{
-  background-color:#282828;
+.card-body {
+  background-color: #282828;
   max-width: 750px;
-  margin: auto; 
+  margin: auto;
 }
 
-.img-thumbnail
-{
-  background-color:#ebdbb2;
-  border-color:#ebdbb2;
+.img-thumbnail {
+  background-color: #ebdbb2;
+  border-color: #ebdbb2;
 }
 
 .btn-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    color:#ebdbb2;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  color: #ebdbb2;
 }
 
 .spotify-song {
-    padding-top: 0px;
+  padding-top: 0px;
 }
 
 .flex-container {
@@ -55,7 +52,7 @@ body {
   padding: 0px !important;
 }
 
-a.btn > svg {
+a.btn>svg {
   display: inline !important;
   vertical-align: middle !important;
   padding-top: 3px;
