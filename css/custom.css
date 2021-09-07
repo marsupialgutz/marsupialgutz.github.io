@@ -8,7 +8,7 @@ body {
 
 @font-face {
   font-family: 'Hurmit Nerd Font Mono';
-  src: local('Hurmit Nerd Font Mono'), url(fonts/HurmitFont.woff2) format('woff2');
+  src: local('Hurmit Nerd Font Mono'), url(../fonts/HurmitFont.woff2) format('woff2');
 }
 
 .card {
