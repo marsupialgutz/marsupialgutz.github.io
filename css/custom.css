@@ -2,13 +2,13 @@ body {
   background-image: url('/imgs/bg.jpeg');
   background-color: #282828;
   background-position: center;
-  font-family: 'Roboto Mono';
+  font-family: 'Hurmit Nerd Font Mono';
   color: #ebdbb2;
 }
 
 @font-face {
-  font-family: 'Roboto Mono';
-  src: local('Roboto Mono'), local('RobotoMono'), url(https://fonts.gstatic.com/s/robotomono/v13/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2) format('woff2');
+  font-family: 'Hurmit Nerd Font Mono';
+  src: local('Hurmit Nerd Font Mono'), url(https://127.0.0.1:5500/fonts/HurmitFont.woff2) format('woff2');
 }
 
 .card {
