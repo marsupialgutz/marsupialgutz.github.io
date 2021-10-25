@@ -1,39 +1,39 @@
 body {
-  background-image: url('/imgs/bg.jpeg');
-  background-color: #282828;
+  background-color: #282A36;
   background-position: center;
-  font-family: 'Hurmit Nerd Font Mono';
-  color: #ebdbb2;
+  font-family: 'Iosevka Custom';
+  color: #FFFFFF;
 }
 
 @font-face {
-  font-family: 'Hurmit Nerd Font Mono';
-  src: local('Hurmit Nerd Font Mono'), url(../fonts/HurmitFont.woff2) format('woff2');
+  font-family: 'Iosevka Custom';
+  src: local('Iosevka Custom'), url(../fonts/iosevka-custom-regular.woff2) format('woff2');
 }
 
 .card {
-  background-color: #282828;
-  max-width: 750px;
+  background-color: #18181D;
+  max-width: 600px;
   margin: auto;
-  margin-top: 30px;
+  top: 50%;
+  transform: translateY(50%);
 }
 
 .card-body {
-  background-color: #282828;
-  max-width: 750px;
+  background-color: #18181D;
+  max-width: 600px;
   margin: auto;
+  margin-top: 20px;
 }
 
 .img-thumbnail {
-  background-color: #ebdbb2;
-  border-color: #ebdbb2;
+  background-color: #18181D;
+  border-color: #FFFFFF;
 }
 
 .btn-circle {
   width: 40px;
   height: 40px;
   border-radius: 20px;
-  color: #ebdbb2;
 }
 
 .spotify-song {
@@ -55,8 +55,42 @@ body {
 a.btn>svg {
   display: inline !important;
   vertical-align: middle !important;
-  padding-top: 7px;
   width: 24px;
   height: 24px;
-  color: #ebdbb2;
+  color: #F8F8F2;
+}
+
+a.btn-twt>svg:hover,
+a.btn-twt>svg:focus {
+  color: #5AA4D6;
+}
+
+a.btn-tg>svg:hover,
+a.btn-tg>svg:focus {
+  color: #1F91CB;
+}
+
+a.btn-disc>svg:hover,
+a.btn-disc>svg:focus {
+  color: #4D60EA;
+}
+
+a.btn-stm>svg:hover,
+a.btn-stm>svg:focus {
+  color: #0D66A8;
+}
+
+a.btn-git>svg:hover,
+a.btn-git>svg:focus {
+  color: #000000;
+}
+
+a.btn-spt>svg:hover,
+a.btn-spt>svg:focus {
+  color: #00CD52;
+}
+
+a.btn-mail>svg:hover,
+a.btn-mail>svg:focus {
+  color: #F54242;
 }
