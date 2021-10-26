@@ -1,6 +1,5 @@
 body {
   background-color: #282A36;
-  background-position: center;
   font-family: 'Iosevka Custom';
   color: #FFFFFF;
 }
@@ -58,6 +57,7 @@ a.btn>svg {
   width: 24px;
   height: 24px;
   color: #F8F8F2;
+  transition: color 100ms ease-out 100ms;
 }
 
 a.btn-twt>svg:hover,

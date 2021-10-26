@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <a href="#">
         <img src="/imgs/icon.png" alt="" class="rounded-circle" width="35" height="35"
-          class="d-inline-block align-text-top" />
+          class="d-inline-block align-text-top"/>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,6 +126,22 @@
   </div>
   <script src="/js/popper.min.js"></script>
   <script src="/js/bootstrap.js"></script>
+  <script src="/js/three.r119.min.js"></script>
+  <script src="/js/vanta.net.min.js"></script>
+  <script>
+    VANTA.NET({
+      el: "body",
+      mouseControls: false,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 1000.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x6C77BA,
+      backgroundColor: 0x282A36
+    })
+  </script>
 </body>
 
 </html>
