@@ -24,6 +24,10 @@ body {
   margin-top: 20px;
 }
 
+.p {
+  line-height: 2;
+}
+
 .img-thumbnail {
   background-color: #18181D;
   border-color: #FFFFFF;
