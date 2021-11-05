@@ -47,6 +47,17 @@ body {
     font-size: 17px;
 }
 
+.maintext2 {
+    color: #D0D0D0;
+    margin-left: 10px;
+    font-size: 17px;
+    line-height: 3px;
+}
+
+.imgClass {
+    margin-left: 10px;
+}
+
 .text {
     color: #D0D0D0;
     margin-left: 10px;
