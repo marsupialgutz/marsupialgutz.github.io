@@ -11,7 +11,7 @@ this.addEventListener('keypress', event => {
                 break;
             case "about":
                 var para = document.createElement('p');
-                var node = document.createTextNode("Sample text");
+                var node = document.createTextNode("Sample text that I'll work on tomorrow lol");
                 para.className = "maintext";
                 para.appendChild(node);
                 var element = document.getElementById("main");
@@ -19,13 +19,13 @@ this.addEventListener('keypress', event => {
                 break;
             case "contact":
                 var para = document.createElement('p');
-                var node = document.createTextNode("Sample text 2");
+                var node = document.createTextNode("Sample text that I'll work on tomorrow lol 2: Electric Boogaloo");
                 para.className = "maintext";
                 para.appendChild(node);
                 var element = document.getElementById("main");
                 element.appendChild(para);
                 break;
-            default: 
+            default:
                 var para = document.createElement('p');
                 var node = document.createTextNode("Invalid command. Type 'help' for available commands.");
                 para.className = "maintext";
@@ -33,11 +33,7 @@ this.addEventListener('keypress', event => {
                 var element = document.getElementById("main");
                 element.appendChild(para);
         }
-        
-        function insertAfter(referenceNode, newNode) {
-            referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-        }
-        
+
         var text = document.getElementById("input");
         var textNode = text.cloneNode(true);
         element.appendChild(textNode);
@@ -46,8 +42,10 @@ this.addEventListener('keypress', event => {
         element.appendChild(inputNode);
         var inputData = input.value;
         var inputDataNode = document.createTextNode(inputData);
-        insertAfter(input, inputDataNode);
+        input.parentNode.insertBefore(inputDataNode, input.nextSibling);
         element.removeChild(input);
+        document.getElementById("command").value = '';
+        document.getElementById("command").focus();
 
     }
 })
