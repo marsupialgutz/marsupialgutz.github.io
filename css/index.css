@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'JetBrainsMono Nerd Font Mono';
+    src: local('JetBrainsMono Nerd Font Mono'), url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.ttf) format('ttf');
+}
+
+body {
+  font-family: 'JetBrainsMono Nerd Font Mono', monospace;
+  font-size: 17px;
+  background-color: #282A36;
+  color: #D0D0D0;
+  background-image: url("../imgs/3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 800px;
+  height: 35%;
+  position: absolute;
+  top: 0px;
+  bottom: 100px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.main {
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #75B5AA;
+    border-radius: 10px;
+    position: absolute;
+    top: 0px;
+    width: 700px;
+    height: 450px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: #151515;
+    opacity: 95%;
+    overflow-y: auto;
+}
+
+.maintext {
+    color: #D0D0D0;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.text {
+    color: #D0D0D0;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 5px;
+    font-size: 17px;
+}
+
+#text {
+    color: #D0D0D0;
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 5px;
+    font-size: 17px;
+}
+
+.input {
+    border: none;
+    background-color: #151515;
+    color:#D0D0D0;
+    font-family: 'JetBrainsMono Nerd Font Mono', monospace;
+    font-size: 17px;
+}
+
+.input:focus {
+    outline: none;
+}
