@@ -83,7 +83,7 @@ this.addEventListener('keypress', event => {
                 line7.appendChild(line7text);
                 element.appendChild(line7);
                 var line8 = document.createElement('p');
-                var line8text = document.createTextNode("    they/pup/paw");
+                var line8text = document.createTextNode("    They/Pup/Paw");
                 line8.style.color="#AA759F";
                 line8.className = "maintext2";
                 line8.appendChild(line8text);
