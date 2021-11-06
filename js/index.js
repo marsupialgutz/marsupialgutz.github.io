@@ -2,23 +2,6 @@ this.addEventListener('keypress', event => {
 
     if (event.key == 'Enter') {
 
-        // function insertAfter(newNode, referenceNode) {
-        //     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-        // }
-
-        function formatAMPM(date) {
-
-            var hours = date.getHours();
-            var minutes = date.getMinutes();
-            var ampm = hours >= 12 ? 'pm' : 'am';
-            hours = hours % 12;
-            hours = hours ? hours : 12;
-            minutes = minutes < 10 ? '0'+minutes : minutes;
-            var strTime = hours + ':' + minutes + ' ' + ampm;
-            return strTime;
-
-        }
-
         const element = document.getElementById("main");
         document.getElementById("command").value = document.getElementById("command").value.toLowerCase();
 
@@ -138,8 +121,9 @@ this.addEventListener('keypress', event => {
             case "time":
 
                 var para = document.createElement('p');
-                var time = formatAMPM(new Date());
-                var node = document.createTextNode(time + " EST");
+                var d = new Date();
+                localtime = d.toLocaleTimeString('en-US', { hour12: true });
+                var node = document.createTextNode(localtime);
                 para.className = "maintext";
                 para.appendChild(node);
                 element.appendChild(para);
@@ -149,6 +133,15 @@ this.addEventListener('keypress', event => {
 
                 var para = document.createElement('p');
                 var node = document.createTextNode("Good try :P");
+                para.className = "maintext";
+                para.appendChild(node);
+                element.appendChild(para);
+                break;
+
+            case "balls":
+                
+                var para = document.createElement('p');
+                var node = document.createTextNode("ratio");
                 para.className = "maintext";
                 para.appendChild(node);
                 element.appendChild(para);
