@@ -18,65 +18,69 @@ this.addEventListener('keypress', event => {
 
             case "about":
             case "fetch":
-            
-                var para = document.createElement('p');
-                var node = document.createTextNode("\n");
-                para.className = "maintext";
-                para.appendChild(node);
-                element.appendChild(para);
+
+                var div = document.createElement('div');
+                div.className = "divclass";
+                element.appendChild(div);
+                var div2 = document.createElement('div');
+                div2.className = "divclass2";
+                div.appendChild(div2);
                 var line1 = document.createElement('p');
                 var line1text = document.createTextNode("mars@possums.xyz");
                 line1.style.color="#9991D9";
                 line1.className = "maintext2";
                 line1.appendChild(line1text);
-                element.appendChild(line1);
+                div2.appendChild(line1);
                 var line2 = document.createElement('p');
                 var line2text = document.createTextNode("════════════════");
                 line2.className = "maintext2";
                 line2.appendChild(line2text);
-                element.appendChild(line2);
+                div2.appendChild(line2);
                 var line3 = document.createElement('p');
                 var line3text = document.createTextNode("    Marshall");
                 line3.style.color="#AC4142";
                 line3.className = "maintext2";
                 line3.appendChild(line3text);
-                element.appendChild(line3);
+                div2.appendChild(line3);
                 var line4 = document.createElement('p');
                 var line4text = document.createTextNode("    Arch BTW");
                 line4.style.color="#B58900";
                 line4.className = "maintext2";
                 line4.appendChild(line4text);
-                element.appendChild(line4);
+                div2.appendChild(line4);
                 var line5 = document.createElement('p');
                 var line5text = document.createTextNode("    16 yrs old");
                 line5.style.color="#F4BF75";
                 line5.className = "maintext2";
                 line5.appendChild(line5text);
-                element.appendChild(line5);
+                div2.appendChild(line5);
                 var line6 = document.createElement('p');
                 var line6text = document.createTextNode("    , , , ");
                 line6.style.color="#90A959";
                 line6.className = "maintext2";
                 line6.appendChild(line6text);
-                element.appendChild(line6);
+                div2.appendChild(line6);
                 var line7 = document.createElement('p');
                 var line7text = document.createTextNode("    Boyflux");
                 line7.style.color="#6A9FB5";
                 line7.className = "maintext2";
                 line7.appendChild(line7text);
-                element.appendChild(line7);
+                div2.appendChild(line7);
                 var line8 = document.createElement('p');
                 var line8text = document.createTextNode("    They/Pup/Paw");
                 line8.style.color="#AA759F";
                 line8.className = "maintext2";
                 line8.appendChild(line8text);
-                element.appendChild(line8);
+                div2.appendChild(line8);
+                var newline = document.createElement('p');
+                newline.innerHTML = "<br>";
+                div2.appendChild(newline);
                 var img = document.createElement('img');
                 img.src = "imgs/icon.png";
-                img.style.width = "163px";
-                img.style.height = "163px";
+                img.style.width = "150px";
+                img.style.height = "150px";
                 img.className = "imgClass";
-                element.insertBefore(img, line1);
+                div.insertBefore(img, div2);
                 break;
 
             case "contact":

@@ -38,6 +38,7 @@ body {
     background-color: #151515;
     opacity: 95%;
     overflow-y: auto;
+    padding: 4px;
 }
 
 .maintext {
@@ -54,8 +55,13 @@ body {
     line-height: 3px;
 }
 
+.divclass {
+    display: inline-flex;
+}
+
 .imgClass {
     margin-left: 10px;
+    margin-top: 13px;
 }
 
 .text {
