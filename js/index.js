@@ -25,6 +25,12 @@ this.addEventListener('keypress', event => {
                 var div2 = document.createElement('div');
                 div2.className = "divclass2";
                 div.appendChild(div2);
+                var div3 = document.createElement('div');
+                div3.className = "divclass3";
+                element.appendChild(div3);
+                var div4 = document.createElement('div');
+                div4.className = "divclass4";
+                element.insertBefore(div4, div);
                 var line1 = document.createElement('p');
                 var line1text = document.createTextNode("mars@possums.xyz");
                 line1.style.color="#9991D9";
@@ -72,9 +78,6 @@ this.addEventListener('keypress', event => {
                 line8.className = "maintext2";
                 line8.appendChild(line8text);
                 div2.appendChild(line8);
-                var newline = document.createElement('p');
-                newline.innerHTML = "<br>";
-                div2.appendChild(newline);
                 var img = document.createElement('img');
                 img.src = "imgs/icon.png";
                 img.style.width = "150px";
