@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'JetBrainsMono Nerd Font Mono';
-    src: local('JetBrainsMono Nerd Font Mono'), url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.ttf) format('ttf');
+    src: local('JetBrainsMono Nerd Font Mono'), url(https://possums.xyz/fonts/JetBrainsMonoNerdFontCompleteM-Regular.ttf) format('ttf');
 }
 
 body {
