@@ -19,71 +19,21 @@ this.addEventListener('keypress', event => {
             case "about":
             case "fetch":
 
-                var div = document.createElement('div');
-                div.className = "divclass";
-                element.appendChild(div);
-                var div2 = document.createElement('div');
-                div2.className = "divclass2";
-                div.appendChild(div2);
-                var div3 = document.createElement('div');
-                div3.className = "divclass3";
-                element.appendChild(div3);
-                var div4 = document.createElement('div');
-                div4.className = "divclass4";
-                element.insertBefore(div4, div);
-                var line1 = document.createElement('p');
-                var line1text = document.createTextNode("mars@possums.xyz");
-                line1.style.color="#9991D9";
-                line1.className = "maintext2";
-                line1.appendChild(line1text);
-                div2.appendChild(line1);
-                var line2 = document.createElement('p');
-                var line2text = document.createTextNode("════════════════");
-                line2.className = "maintext2";
-                line2.appendChild(line2text);
-                div2.appendChild(line2);
-                var line3 = document.createElement('p');
-                var line3text = document.createTextNode("    Marshall");
-                line3.style.color="#AC4142";
-                line3.className = "maintext2";
-                line3.appendChild(line3text);
-                div2.appendChild(line3);
-                var line4 = document.createElement('p');
-                var line4text = document.createTextNode("    Arch BTW");
-                line4.style.color="#B58900";
-                line4.className = "maintext2";
-                line4.appendChild(line4text);
-                div2.appendChild(line4);
-                var line5 = document.createElement('p');
-                var line5text = document.createTextNode("    16 yrs old");
-                line5.style.color="#F4BF75";
-                line5.className = "maintext2";
-                line5.appendChild(line5text);
-                div2.appendChild(line5);
-                var line6 = document.createElement('p');
-                var line6text = document.createTextNode("    , , , ");
-                line6.style.color="#90A959";
-                line6.className = "maintext2";
-                line6.appendChild(line6text);
-                div2.appendChild(line6);
-                var line7 = document.createElement('p');
-                var line7text = document.createTextNode("    Boyflux");
-                line7.style.color="#6A9FB5";
-                line7.className = "maintext2";
-                line7.appendChild(line7text);
-                div2.appendChild(line7);
-                var line8 = document.createElement('p');
-                var line8text = document.createTextNode("    They/Pup/Paw");
-                line8.style.color="#AA759F";
-                line8.className = "maintext2";
-                line8.appendChild(line8text);
-                div2.appendChild(line8);
-                var img = document.createElement('img');
-                img.src = "imgs/icon.png";
-                img.style.width = "150px";
-                img.style.height = "150px";
-                img.className = "imgClass";
-                div.insertBefore(img, div2);
+                const htmlStr = `<div class="divclass"><img src="https://possums.xyz/imgs/icon.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="divclass2">
+                                        <p class="maintext2"><span class="bold">mars<span class="red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold pink">════════════════</span></p>
+                                        <p class="maintext2"><span class="red"> </span> Marshall</p>
+                                        <p class="maintext2"><span class="orange"> </span> Arch BTW</p>
+                                        <p class="maintext2"><span class="yellow"> </span> 16 yrs old</p>
+                                        <p class="maintext2"><span class="green"> </span> <span class="js"></span>, <span class="node"></span>, <span class="java"></span>, <span class="python"></span></p>
+                                        <p class="maintext2"><span class="blue"> </span> Boyflux</p>
+                                        <p class="maintext2"><span class="purple"> </span> They/Pup/Paw</p>
+                                    </div>
+                                </div>`;
+                var stuff = document.createElement('div');
+                stuff.innerHTML = htmlStr;
+                element.appendChild(stuff);
                 break;
 
             case "contact":
@@ -135,6 +85,17 @@ this.addEventListener('keypress', event => {
                 para.appendChild(node);
                 element.appendChild(para);
                 break;
+            
+            case "time24":
+
+                var para = document.createElement('p');
+                var d = new Date();
+                localtime = d.toLocaleTimeString('en-US', { hour12: false });
+                var node = document.createTextNode(localtime);
+                para.className = "maintext";
+                para.appendChild(node);
+                element.appendChild(para);
+                break;
 
             case "rm -rf /":
 
@@ -154,8 +115,27 @@ this.addEventListener('keypress', event => {
                 element.appendChild(para);
                 break;
 
+            case "gay":
+
+                var img = document.createElement('img');
+                img.src = "imgs/gay.png";
+                img.width = img.width / 11.3;
+                img.className = "imgClass";
+                element.appendChild(img);
+                break;
+
             case "":
                 
+                return;
+            
+            case "clear":
+            case "cls":
+
+                element.innerHTML = `<p class="maintext">Welcome to PossumShell! Type 'help' for available commands.</p>
+                <label class="text" for="command" id="input" style="color: #90a959;">&gt; </label>
+                <input class="input" type="text" id="command" name="command" autofocus="">
+                <script type="text/javascript" src="js/index.js"></script>`;
+                document.getElementById("command").focus();
                 return;
             
             default:

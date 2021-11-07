@@ -43,6 +43,7 @@ body {
 
 .maintext {
     color: #D0D0D0;
+    opacity: 100%;
     margin-left: 10px;
     margin-top: 10px;
     font-size: 17px;
@@ -50,6 +51,7 @@ body {
 
 .maintext2 {
     color: #D0D0D0;
+    opacity: 100%;
     margin-left: 10px;
     font-size: 17px;
     line-height: 3px;
@@ -62,14 +64,72 @@ body {
 .imgClass {
     margin-left: 10px;
     margin-top: 13px;
+    opacity: 100%;
 }
 
 .text {
     color: #D0D0D0;
+    opacity: 100%;
     margin-left: 10px;
     margin-top: 10px;
     line-height: 5px;
     font-size: 17px;
+}
+
+.red {
+    color: #AC4142;
+}
+
+.orange {
+    color: #B58900;
+}
+
+.yellow {
+    color: #F4BF75;
+}
+
+.green {
+    color: #90A959;
+}
+
+.blue {
+    color: #6A9FB5;
+}
+
+.pink {
+    color: #A6759C;
+}
+
+.purple {
+    color: #928BCF;
+}
+
+.white {
+    color: #D0D0D0;
+}
+
+.black {
+    color: #151515;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.js {
+    color: #F0DB4F;
+}
+
+.node {
+    color: #3C873A;
+}
+
+.java {
+    color: #EC2025;
+}
+
+.python {
+    color: #306998;
 }
 
 #text {
