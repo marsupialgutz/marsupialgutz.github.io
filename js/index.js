@@ -73,6 +73,11 @@ this.addEventListener('keypress', event => {
                 line7.style.color="#5865F2";
                 line7.className = "maintext";
                 element.appendChild(line7);
+                var line8 = document.createElement('p');
+                line8.innerHTML = 'ﳄ: <a href="https://fedi.nullob.si/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@fedi.nullob.si</a>';
+                line8.style.color="#2E9CB5";
+                line8.className = "maintext";
+                element.appendChild(line8);
                 break;
                 
             case "time":
