@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/marsupialgutz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://possums.xyz
+  * I am marsupialgutz (https://keybase.io/marsupialgutz) on keybase.
+  * I have a public key with fingerprint 6017 9CCF A9EC 4636 216B  F326 DB41 891A E0A1 ED4D
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cbfd81cbed0da8629b7845cf24df958b80d7d6b7fd7c2e2822708d1a04ef3ca40a",
+      "fingerprint": "60179ccfa9ec4636216bf326db41891ae0a1ed4d",
+      "host": "keybase.io",
+      "key_id": "db41891ae0a1ed4d",
+      "kid": "0101cbfd81cbed0da8629b7845cf24df958b80d7d6b7fd7c2e2822708d1a04ef3ca40a",
+      "uid": "7ad88d8e5cf5850a40ec62dfb70f0719",
+      "username": "marsupialgutz"
+    },
+    "service": {
+      "hostname": "possums.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1636851414,
+  "expire_in": 157680000,
+  "prev": "76ce0d6fd451a7a045cc712c917a9082bec2f66a4cec7b48b5815acb7f5ec655",
+  "seqno": 4,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNHAnicrVJ9UBRlHL7LwOFDEJGjYM5qNYWRaHfZr1tj5hw0BkpKpjF0yPPd3Xdh
+veP2uN0DDzwjGWTAiySbKGwuUbxJRgsqDGREQKQpxHQsboibSRhsKq0pmD6Yk6Zd
+xv7rz94/3nfe9/c8z+/3PPOOrlphiDVOb21Ku93x8w7j+PAJjwEc2ztZi3Cy4EXY
+WsQOlw/oEKCi2uySgLAIiqEYz4kCo+1QQAXAULiFoxmC5EWcEEQLyXAMKtACxdGi
+QPM4xBkcp1FGwABKQDGHBwQKkCxElJxl0O1yS05Vk6VQjLbwvAgskCeoHArHKE7M
+wSmBIzDGggGIAgwKhKARy2VFZ2jDcUCB2ZKsvWkX2/J4/4H/n+f2LMvRQGAYgYEa
+m2RIVKtBnsIFkaNREaUxiw5UoNsJKqCGrgBuxeOSgKPMo9YgvixEK1VJPNTT1e08
+gLlkRfFUKNkHvDUa3+WWVZmXHVqhXFVdCqsTVa9LR1ZDzvZAw8ZJTkHLUmNUQbci
+yU6ExTQkr0q6KKaFyZAYgRFZCDzgktzQJukIkqYYVFt6H1ilO6J4iAqUKBAkBmjN
+M8nzNIbzFowGFpTBOcjjIkUBgoc8zREMRzIYCXgtLVKzTpKI7qrSKSOs1kkFZZqk
+IpU5gepxQ8Q3Mlz6sMEYa4iOekj/Y4bYmNX//jzDN4lLqfZXfFZksEsF/tiJGSV4
+86Q7M+/KRXvzH6a1Ad6VeS/vt43u6u9/fGRxa/Drk1+15o0feUNEAnHRxeP7itxF
+L0bPb56snm1594lIa8gxm+Dzz27sVS4t3bck5h7puFpvsvd3P7szY3fa9ePpV3yZ
+vwTP7o/cIgt2MKcHtxyfRlPaswLrYma6zQuHndmhMbnH4txu+PZxK++vTy+fj4lq
+Dtf3rZh7danyqlXoL30t5L9zOe9O0qCU39h9arjkT7Hxpc22pUPJsYXXQmuuD7Kj
+7E+nxvoLZNO+o8P+yd3Gws92gdSsL5/+wG75e1vw7qMD7S1TocWE82XxfUkNe1Z9
+PPQYW3A7t27EMXEGKc7obG03T5Q27iVGKnpmrXHeuZ7ASN3E7xcuzpzjqPzecGV3
+l+RviQOXP2wLRprWJX2SsP9oolg50AXSIzVnwn11c98NhG/0FlkDK3+41eX9aJMp
+n32yubDyrbWj5l3sYsaF+YmWc5GS6QW6+PB7N8nX/3I1bfiiI9X1dkrbnjc/bV7Z
+UNib7PvcOcUaw9azKebC1Pej0qa2ODcUm+a2z3R1HsTMrUPPO17e+Vyi1dtw6Uab
+vP6d5IJ438FMPD918T44kTG0eKjkGvpUpHtujXH96tFgIHP0niHeX2EX1F/7FsY2
+Fb3QCUzP1OaGQudD2+6Gj+VOnx75B/QSxi4=
+=SySk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/marsupialgutz
+
+==================================================================
