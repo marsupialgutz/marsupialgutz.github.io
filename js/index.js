@@ -64,20 +64,25 @@ this.addEventListener('keypress', event => {
                 line5.className = "maintext";
                 element.appendChild(line5);
                 var line6 = document.createElement('p');
-                line6.innerHTML = ': <a href="mailto:mars@possums.xyz"" style="color:#AC4142;">mars@possums.xyz</a>';
-                line6.style.color="#AC4142";
+                line6.innerHTML = 'ﳄ: <a href="https://fedi.nullob.si/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@fedi.nullob.si</a>';
+                line6.style.color="#2E9CB5";
                 line6.className = "maintext";
                 element.appendChild(line6);
                 var line7 = document.createElement('p');
-                line7.innerHTML = 'ﭮ: <a href="https://discord.gg/aUsbCjbrPx" style="color:#5865F2;">marshall#0420</a>';
-                line7.style.color="#5865F2";
+                line7.innerHTML = ': <a href="https://keybase.io/marsupialgutz" style="color:#FF6F21;">marsupialgutz</a>';
+                line7.style.color="#FF6F21";
                 line7.className = "maintext";
                 element.appendChild(line7);
                 var line8 = document.createElement('p');
-                line8.innerHTML = 'ﳄ: <a href="https://fedi.nullob.si/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@fedi.nullob.si</a>';
-                line8.style.color="#2E9CB5";
+                line8.innerHTML = ': <a href="mailto:mars@possums.xyz"" style="color:#AC4142;">mars@possums.xyz</a>';
+                line8.style.color="#AC4142";
                 line8.className = "maintext";
                 element.appendChild(line8);
+                var line9 = document.createElement('p');
+                line9.innerHTML = 'ﭮ: <a href="https://discord.gg/aUsbCjbrPx" style="color:#5865F2;">marshall#0420</a>';
+                line9.style.color="#5865F2";
+                line9.className = "maintext";
+                element.appendChild(line9);
                 break;
                 
             case "time":
