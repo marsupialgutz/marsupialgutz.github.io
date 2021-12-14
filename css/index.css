@@ -4,6 +4,7 @@
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'JetBrainsMono Nerd Font Mono', monospace;
   font-size: 17px;
   background-color: #1f1d2e;
@@ -18,19 +19,35 @@ body {
   left: 0px;
   right: 0px;
   margin: auto;
+=======
+    font-family: 'JetBrainsMono Nerd Font Mono', monospace;
+    font-size: 17px;
+    background-color: #282A36;
+    color: #D0D0D0;
+    background-image: url("../imgs/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+>>>>>>> d2655b14ae784e1e1fff74e384a5153273ee7694
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #75B5AA;
-  border-radius: 10px;
+    background: #75B5AA;
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

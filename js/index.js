@@ -64,7 +64,7 @@ this.addEventListener('keypress', event => {
                 line5.className = "maintext";
                 element.appendChild(line5);
                 var line6 = document.createElement('p');
-                line6.innerHTML = 'ﳄ: <a href="https://fedi.nullob.si/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@fedi.nullob.si</a>';
+                line6.innerHTML = 'ﳄ: <a href="https://voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@voring.me</a>';
                 line6.style.color="#2E9CB5";
                 line6.className = "maintext";
                 element.appendChild(line6);
