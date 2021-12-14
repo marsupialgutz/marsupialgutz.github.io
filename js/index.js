@@ -24,10 +24,10 @@ this.addEventListener('keypress', event => {
                                         <p class="maintext2"><span class="bold">mars<span class="red">@</span>possums.xyz</span></p>
                                         <p class="maintext2"><span class="bold pink">════════════════</span></p>
                                         <p class="maintext2"><span class="red"> </span> Marshall</p>
-                                        <p class="maintext2"><span class="orange"> </span> Arch BTW</p>
+                                        <p class="maintext2"><span class="orange"> </span> Axyl OS</p>
                                         <p class="maintext2"><span class="yellow"> </span> 16 yrs old</p>
                                         <p class="maintext2"><span class="green"> </span> <span class="js"></span>, <span class="node"></span>, <span class="java"></span>, <span class="python"></span></p>
-                                        <p class="maintext2"><span class="blue"> </span> Boyflux</p>
+                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
                                         <p class="maintext2"><span class="purple"> </span> They/Pup/Paw</p>
                                     </div>
                                 </div>`;
@@ -39,7 +39,7 @@ this.addEventListener('keypress', event => {
             case "contact":
 
                 var line1 = document.createElement('p');
-                line1.innerHTML = '海: <a href="https://twitter.com/puppyboywinter" style="color:#00A7E7;">@puppyboywinter</a>';
+                line1.innerHTML = '海: <a href="https://twitter.com/mxrsie" style="color:#00A7E7;">@mxrsie</a>';
                 line1.style.color="#00A7E7";
                 line1.className = "maintext";
                 element.appendChild(line1);
