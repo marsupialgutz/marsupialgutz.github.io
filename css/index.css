@@ -68,13 +68,31 @@ body {
   background: #1c1e26;
   line-height: 24px;
   font-size: 12px;
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 5%;
+  border-radius: 0px 10px 0px 0px;
+}
+
+@-moz-document url-prefix() {
+  .main legend {
+    width: 95%;
+  }
+
+  #spanny {
+    width: 30%;
+  }
+
+  #spanny2 {
+    width: 36.6%;
+  }
 }
 
 .main legend .legend {
-  position: absolute;
-  top: -24px;
-  right: 3px;
   line-height: 24px;
+  text-align: right;
+  width: 33.3%;
 }
 
 .windowControls {
