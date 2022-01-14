@@ -10,7 +10,7 @@ this.addEventListener('keypress', event => {
             case "help":
 
                 var para = document.createElement('p');
-                var node = document.createTextNode("Available commands: help, about, contact, time");
+                var node = document.createTextNode("Available commands: help, about/fetch, contact, time/time24, ref/sona, clear/cls");
                 para.className = "maintext animatedFade fade";
                 para.appendChild(node);
                 element.appendChild(para);
@@ -24,11 +24,11 @@ this.addEventListener('keypress', event => {
                                         <p class="maintext2"><span class="bold">mars<span class="red">@</span>possums.xyz</span></p>
                                         <p class="maintext2"><span class="bold pink">════════════════</span></p>
                                         <p class="maintext2"><span class="red"> </span> Marshall</p>
-                                        <p class="maintext2"><span class="orange"> </span> Axyl OS</p>
+                                        <p class="maintext2"><span class="orange"> </span> Arch</p>
                                         <p class="maintext2"><span class="yellow"> </span> 16 yrs old</p>
                                         <p class="maintext2"><span class="green"> </span> <span class="js"></span>, <span class="cpp"></span>, <span class="java"></span>, <span class="python"></span></p>
-                                        <p class="maintext2"><span class="blue"> </span> Agender Enderian</p>
-                                        <p class="maintext2"><span class="purple"> </span> They/Pup/Mutt/Paw</p>
+                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
+                                        <p class="maintext2"><span class="purple"> </span> Check <a href="https://twitter.com/MARSUPIALGUTZ" style="color:#00A7E7;">bio</a></p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -39,7 +39,7 @@ this.addEventListener('keypress', event => {
             case "contact":
 
                 var line1 = document.createElement('p');
-                line1.innerHTML = '海: <a href="https://twitter.com/mxrsie" style="color:#00A7E7;">@mxrsie</a>';
+                line1.innerHTML = '海: <a href="https://twitter.com/MARSUPIALGUTZ" style="color:#00A7E7;">@MARSUPIALGUTZ</a>';
                 line1.style.color = "#00A7E7";
                 line1.className = "maintext animatedFade fade";
                 element.appendChild(line1);
@@ -49,7 +49,7 @@ this.addEventListener('keypress', event => {
                 line2.className = "maintext animatedFade fade";
                 element.appendChild(line2);
                 var line3 = document.createElement('p');
-                line3.innerHTML = ': <a href="https://t.me/puppyteddybear" style="color:#0088CC;">@puppyteddybear</a>';
+                line3.innerHTML = ': <a href="https://t.me/GL4MROCK" style="color:#0088CC;">@GL4MROCK</a>';
                 line3.style.color = "#0088CC";
                 line3.className = "maintext animatedFade fade";
                 element.appendChild(line3);
@@ -64,7 +64,7 @@ this.addEventListener('keypress', event => {
                 line5.className = "maintext animatedFade fade";
                 element.appendChild(line5);
                 var line6 = document.createElement('p');
-                line6.innerHTML = 'ﳄ: <a href="https://voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@voring.me</a>';
+                line6.innerHTML = 'ﳄ: <a rel="me" href="https://voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@voring.me</a>';
                 line6.style.color = "#2E9CB5";
                 line6.className = "maintext animatedFade fade";
                 element.appendChild(line6);
@@ -79,7 +79,7 @@ this.addEventListener('keypress', event => {
                 line8.className = "maintext animatedFade fade";
                 element.appendChild(line8);
                 var line9 = document.createElement('p');
-                line9.innerHTML = 'ﭮ: <a href="https://discord.gg/aUsbCjbrPx" style="color:#5865F2;">Teddy🎄#0420</a>';
+                line9.innerHTML = 'ﭮ: <a href="https://discord.com/users/449287407142043658" style="color:#5865F2;">Mars ☃#0420</a>';
                 line9.style.color = "#5865F2";
                 line9.className = "maintext animatedFade fade";
                 element.appendChild(line9);
@@ -88,25 +88,30 @@ this.addEventListener('keypress', event => {
             case "time":
 
                 var para = document.createElement('p');
-                var d = new Date();
-                localtime = d.toLocaleTimeString('en-US', { hour12: true });
-                var node = document.createTextNode(localtime);
+                function getTime() {
+                    d = new Date();
+                    localtime = d.toLocaleTimeString('en-US', { hour12: true });
+                    para.innerHTML = localtime;
+                }
+                getTime();
+                setInterval(getTime, 1000);
                 para.className = "maintext animatedFade fade";
-                para.appendChild(node);
                 element.appendChild(para);
                 break;
 
             case "time24":
 
                 var para = document.createElement('p');
-                var d = new Date();
-                localtime = d.toLocaleTimeString('en-US', { hour12: false });
-                var node = document.createTextNode(localtime);
+                function getTime24() {
+                    d = new Date();
+                    localtime = d.toLocaleTimeString('en-US', { hour12: false });
+                    para.innerHTML = localtime;
+                }
+                getTime24();
+                setInterval(getTime24, 1000);
                 para.className = "maintext animatedFade fade";
-                para.appendChild(node);
                 element.appendChild(para);
                 break;
-
             case "rm -rf /":
 
                 var para = document.createElement('p');
@@ -133,6 +138,11 @@ this.addEventListener('keypress', event => {
                 img.className = "imgClass animatedFade fade";
                 element.appendChild(img);
                 break;
+            
+            case "ref":
+            case "sona":
+
+                var myWindow = window.open("./sona", "_self");
 
             case "":
 
