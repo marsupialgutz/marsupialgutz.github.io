@@ -107,10 +107,9 @@ body {
 }
 
 .color {
-  padding: 0.1% 4px 0.1% 4px;
+  padding: 10px;
   align-items: center;
-  width: 100%;
-  margin: 3%;
+  margin: 10px 4px;
   border-radius: 5px;
 }
 
@@ -125,17 +124,23 @@ body {
   transform: translate(-50%, -50%);
 }
 
+#colors {
+  text-align: center;
+}
+
 .text1 {
   text-align: center;
   color: #1C1E26;
+  margin: 0;
 }
 
 .text2 {
   text-align: center;
   color: #D4D4D4;
+  margin: 0;
 }
 
-@media screen  and (max-width: 1080px) {
+@media screen and (max-width: 1080px) {
   .flex-container {
     width: 96%;
   }
@@ -163,7 +168,11 @@ body {
   }
 
   .text1, .text2 {
-  	font-size: 3vw;
+  	font-size: 3.75vw;
+  }
+
+  .color {
+    width: auto;
   }
 
   #colors {

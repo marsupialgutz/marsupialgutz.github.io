@@ -112,6 +112,7 @@ this.addEventListener('keypress', event => {
                 para.className = "maintext animatedFade fade";
                 element.appendChild(para);
                 break;
+                
             case "rm -rf /":
 
                 var para = document.createElement('p');
