@@ -10,9 +10,9 @@ html * {
 
 body {
   font-size: 17px;
-  background-color: #1f1d2e;
-  color: #d0d0d0;
-  background-image: url("../imgs/bg.jpg");
+  background-color: #1C1E26;
+  color: #d4d4d4;
+  background-image: url("../imgs/wallpaper.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -33,12 +33,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #75b5aa;
+  background: #73747833;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #75b5aacc;
+  background: #f43e5c;
 }
 
 .main {
@@ -57,7 +57,7 @@ body {
   height: 450px;
   max-width: 90%;
   max-height: 96%;
-  background-color: #1f1d2edd;
+  background-color: #1C1E26dd;
   overflow-y: auto;
   padding: 4px;
   backdrop-filter: blur(8px);
@@ -101,7 +101,7 @@ body {
   height: 15px;
   padding-left: 4px;
   padding-right: 4px;
-  color: #1f1d2e;
+  color: #1C1E26;
 }
 
 .expand {
@@ -160,7 +160,7 @@ body {
 }
 
 .yellow {
-  color: #FAB795;
+  color: #FBC3A7;
 }
 
 .green {

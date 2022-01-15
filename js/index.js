@@ -138,7 +138,7 @@ this.addEventListener('keypress', event => {
                 img.className = "imgClass animatedFade fade";
                 element.appendChild(img);
                 break;
-            
+
             case "ref":
             case "sona":
 
@@ -151,10 +151,17 @@ this.addEventListener('keypress', event => {
             case "clear":
             case "cls":
 
-                element.innerHTML = `<legend>PossumShell - ~/<div class="legend"><span class="expand windowControls"></span> <span class="minimize windowControls"></span> <span class="close windowControls"></span></div></legend>
-                <p class="maintext animatedFade fade">Welcome to PossumShell! Type 'help' for available commands.</p>
-                <label class="text animatedFade fade" for="command" id="input" style="color: #90a959;">&gt; </label>
-                <input class="input animatedFade fade" type="text" id="command" name="command" autofocus="">
+                element.innerHTML = `<legend><span id="spanny" style="width: 25%; text-align: left;"></span>
+                <span id="spanny2" style="width: 41.6%; text-align: center;">PossumShell - ~/</span>
+                <div class="legend">
+                    <span class="expand windowControls"></span>
+                    <span class="minimize windowControls"></span> 
+                    <span class="close windowControls"></span>
+                </div>
+                </legend>
+                <p class="maintext">Welcome to PossumShell! Type 'help' for available commands.</p>
+                <label class="text" for="command" id="input" style="color: #28cb93;">> </label>
+                <input class="input" type="text" id="command" name="command" autofocus>
                 <script type="text/javascript" src="js/index.js"></script>`;
                 document.getElementById("command").focus();
                 return;
