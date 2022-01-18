@@ -366,7 +366,7 @@ body {
   animation-name: fade;
 }
 
-@media (pointer:none), (pointer:coarse) {
+@media (pointer: none), (pointer: coarse) {
   .spotstatus {
     display: none;
   }

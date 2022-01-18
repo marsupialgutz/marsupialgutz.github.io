@@ -3,7 +3,7 @@ d = new Date();
 
 function updateClock() {
     if (timeCheck === false) {
-        localtime = d.toLocaleTimeString('en-US', { hour12: true }).replace(/(.*)\D\d+/, '$1'); 
+        localtime = d.toLocaleTimeString('en-US', { hour12: true }).replace(/(.*)\D\d+/, '$1');
         document.getElementById('time').innerHTML = localtime;
     }
 }
@@ -27,7 +27,7 @@ function check() {
 updateClock();
 setInterval(updateClock, 30000);
 
-function Get (yourUrl) {
+function Get(yourUrl) {
     var Httpreq = new XMLHttpRequest();
     Httpreq.open("GET", yourUrl, false);
     Httpreq.send(null);
@@ -168,7 +168,7 @@ this.addEventListener('keypress', event => {
                 para.className = "maintext animatedFade fade";
                 element.appendChild(para);
                 break;
-                
+
             case "rm -rf /":
 
                 var para = document.createElement('p');
