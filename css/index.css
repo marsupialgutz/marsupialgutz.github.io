@@ -10,7 +10,7 @@ html * {
 
 body {
   font-size: 17px;
-  background-color: #1C1E26;
+  background-color: #1c1e26;
   color: #d4d4d4;
   background-image: url("../imgs/wallpaper.jpg");
   background-repeat: no-repeat;
@@ -22,6 +22,81 @@ body {
   left: 0px;
   right: 0px;
   margin: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+
+.box:first-child {
+  margin-right: auto;
+}
+
+.box:last-child {
+  justify-content: flex-end;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.topbar {
+  background-color: #1c1e26;
+  color: #d4d4d4;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  padding: 4px;
+  margin: auto;
+}
+
+.leftbutton {
+  background-color: #306998;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left1 {
+  font-size: 19px;
+  margin-left: 5px;
+  color: #306998;
+  border-bottom: 2px solid #306998;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spotstatus {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rightbutton {
+  margin-right: 7px;
+  background-color: #306998;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 !important;
 }
 
 ::-webkit-scrollbar {
@@ -57,7 +132,7 @@ body {
   height: 450px;
   max-width: 90%;
   max-height: 96%;
-  background-color: #1C1E26dd;
+  background-color: #1c1e26dd;
   overflow-y: auto;
   padding: 4px;
   backdrop-filter: blur(8px);
@@ -101,7 +176,7 @@ body {
   height: 15px;
   padding-left: 4px;
   padding-right: 4px;
-  color: #1C1E26;
+  color: #1c1e26;
 }
 
 .expand {
@@ -160,19 +235,19 @@ body {
 }
 
 .yellow {
-  color: #FBC3A7;
+  color: #fbc3a7;
 }
 
 .green {
-  color: #29D398;
+  color: #29d398;
 }
 
 .blue {
-  color: #26BBD9;
+  color: #26bbd9;
 }
 
 .pink {
-  color: #EE64AE;
+  color: #ee64ae;
 }
 
 .purple {
@@ -184,7 +259,7 @@ body {
 }
 
 .black {
-  color: #1C1E26;
+  color: #1c1e26;
 }
 
 .bold {
@@ -289,4 +364,10 @@ body {
 .fade {
   -webkit-animation-name: fade;
   animation-name: fade;
+}
+
+@media (pointer:none), (pointer:coarse) {
+  .spotstatus {
+    display: none;
+  }
 }
