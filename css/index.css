@@ -42,6 +42,10 @@ body {
   justify-content: flex-end;
 }
 
+.buttony {
+  text-decoration: none;
+}
+
 .flexbox {
   display: flex;
   align-items: center;
@@ -69,13 +73,29 @@ body {
 .left1 {
   font-size: 19px;
   margin-left: 5px;
-  color: #306998;
-  border-bottom: 2px solid #306998;
+  color: #f43e5c;
+  border-bottom: 2px solid #f43e5c;
   width: 50px;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.left2 {
+  font-size: 19px;
+  color: #306998;
+  padding-bottom: 2px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .25s ease;
+}
+
+.left2:hover {
+  color: #f43e5c;
 }
 
 .spotstatus {

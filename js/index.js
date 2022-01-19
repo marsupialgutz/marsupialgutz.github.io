@@ -1,10 +1,13 @@
 var timeCheck = false;
-d = new Date();
+var localtime;
 
 function updateClock() {
+    d = new Date();
     if (timeCheck === false) {
-        localtime = d.toLocaleTimeString('en-US', { hour12: true }).replace(/(.*)\D\d+/, '$1');
-        document.getElementById('time').innerHTML = localtime;
+        if (localtime != d.toLocaleTimeString('en-US', { hour12: true }).replace(/(.*)\D\d+/, '$1')) {
+            localtime = d.toLocaleTimeString('en-US', { hour12: true }).replace(/(.*)\D\d+/, '$1');
+            document.getElementById('time').innerHTML = localtime;
+        }
     }
 }
 
@@ -25,7 +28,7 @@ function check() {
 }
 
 updateClock();
-setInterval(updateClock, 30000);
+setInterval(updateClock, 1000);
 
 function Get(yourUrl) {
     var Httpreq = new XMLHttpRequest();
@@ -196,10 +199,10 @@ this.addEventListener('keypress', event => {
                 element.appendChild(img);
                 break;
 
-            case "ref":
-            case "sona":
+            // case "ref":
+            // case "sona":
 
-                var myWindow = window.open("./sona", "_self");
+            //     var myWindow = window.open("./sona", "_self");
 
             case "":
 

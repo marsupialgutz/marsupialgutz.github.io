@@ -17,6 +17,23 @@ body {
   background-size: contain;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #73747833;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f43e5c;
+}
+
 .backbutton {
   outline: none;
   font-size: 14px;
