@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "JetBrainsMono Nerd Font Mono";
+  src: local("JetBrainsMono Nerd Font Mono"),
+    url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.woff2) format("woff2");
+}
+
+html * {
+  font-family: "JetBrainsMono Nerd Font Mono";
+}
+
+body {
+  font-size: 17px;
+  background-color: #1c1e26;
+  color: #d4d4d4;
+  background-image: url("../imgs/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+
+.box:first-child {
+  margin-right: auto;
+}
+
+.box:last-child {
+  justify-content: flex-end;
+}
+
+.buttony {
+  text-decoration: none;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.topbar {
+  background-color: #1c1e26;
+  color: #d4d4d4;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  padding: 4px;
+  margin: auto;
+}
+
+.leftbutton {
+  background-color: #306998;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left1 {
+  font-size: 19px;
+  margin-left: 5px;
+  color: #f43e5c;
+  border-bottom: 2px solid #f43e5c;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left2 {
+  font-size: 19px;
+  color: #306998;
+  padding-bottom: 2px;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.25s ease;
+}
+
+.left2:hover {
+  color: #f43e5c;
+}
+
+.spotstatus {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rightbutton {
+  margin-right: 7px;
+  background-color: #306998;
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 !important;
+}

@@ -13,7 +13,8 @@
     <meta name="theme-color" content="#75B5AA">
     <title>sticky notes!</title>
     <link rel="icon" href="imgs/icon.png" type="image/png">
-    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/topbar.css" />
+    <link rel="stylesheet" href="../css/stickynote.css" />
     <link rel="shortcut icon" href="imgs/icon.png">
 </head>
 
@@ -53,5 +54,18 @@
             </div>
         </div>
     </div>
+    <div class="main fadeInDown animatedFadeDown" id="main">
+        <legend><span id="spanny" style="width: 25%; text-align: left;"></span>
+            <span id="spanny2" style="width: 41.6%; text-align: center;"></span>
+            <div class="legend">
+                <span class="expand windowControls"></span>
+                <span class="minimize windowControls"></span>
+                <span class="close windowControls"></span>
+            </div>
+        </legend>
+        <input maxlength="38" class="input" type="text" id="title" placeholder="Enter note title"/>
+        <textarea id="content" style="resize: none;" rows="15" cols="25" maxlength="750" class="input2" placeholder="Enter note text"></textarea>
+    </div>
     <script type="text/javascript" src="../js/topbar.js"></script>
+    <script type="text/javascript" src="../js/stickynote.js"></script>
 </body>
