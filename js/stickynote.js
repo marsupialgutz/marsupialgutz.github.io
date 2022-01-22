@@ -1,5 +1,6 @@
 if (localStorage.getItem("title") != null) {
-    document.getElementById("title").value = localStorage.getItem("title");
+    var title = localStorage.getItem("title");
+    document.getElementById("title").value = localStorage.getItem("title").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
     if (localStorage.getItem("title") != "") {
         document.getElementById("spanny2").innerHTML = "Note: " + localStorage.getItem("title");
     } else {
