@@ -290,9 +290,3 @@ body {
   -webkit-animation-name: fade;
   animation-name: fade;
 }
-
-@media (pointer: none), (pointer: coarse) {
-  .spotstatus {
-    display: none;
-  }
-}

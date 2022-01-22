@@ -119,3 +119,9 @@ body {
   text-align: center;
   margin: 0 !important;
 }
+
+@media (pointer: none), (pointer: coarse) {
+  .spotstatus {
+    display: none;
+  }
+}
