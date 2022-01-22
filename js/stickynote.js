@@ -27,7 +27,7 @@ this.addEventListener('keyup', event => {
 this.addEventListener('keypress', event => {
     if (event.key == 'Enter' && !event.shiftKey) {
         event.preventDefault();
-        var title = document.getElementById("title").value;
+        var title = document.getElementById("title").value.replace(/</g, "&lt;").replace(/>/g, "&gt;");
         var content = document.getElementById("content").value;
         localStorage.setItem("title", title);
         localStorage.setItem("content", content);
