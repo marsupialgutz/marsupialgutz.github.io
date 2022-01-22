@@ -3,7 +3,7 @@ if (localStorage.getItem("title") != null) {
     if (localStorage.getItem("title") != "") {
         document.getElementById("spanny2").innerHTML = "Note: " + localStorage.getItem("title");
     } else {
-        document.getElementById("spanny2").innerHTML = "Note: " + "Untitled";
+        document.getElementById("spanny2").innerHTML = "Note: Untitled";
     }
 }
 
@@ -34,7 +34,7 @@ this.addEventListener('keypress', event => {
         if (title != "") {
             document.getElementById("spanny2").innerHTML = "Note: " + title;
         } else {
-            document.getElementById("spanny2").innerHTML = "Note: " + "Untitled";
+            document.getElementById("spanny2").innerHTML = "Note: Untitled";
         }
     }
 })
