@@ -32,18 +32,27 @@ this.addEventListener('keypress', event => {
             case "about":
             case "fetch":
 
-                const htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/icon.png" class="imgClass" style="width: 150px; height: 150px;">
+                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/icon.png" class="imgClass" style="width: 150px; height: 150px;">
                                     <div class="divclass2">
                                         <p class="maintext2"><span class="bold">mars<span class="red">@</span>possums.xyz</span></p>
                                         <p class="maintext2"><span class="bold pink">════════════════</span></p>
                                         <p class="maintext2"><span class="red"> </span> Marshall</p>
                                         <p class="maintext2"><span class="orange"> </span> Arch</p>
-                                        <p class="maintext2"><span class="yellow"> </span> 16 yrs old</p>
+                                        <p class="maintext2"><span class="yellow"> </span> 17 yrs old</p>
                                         <p class="maintext2"><span class="green"> </span> <span class="js"></span>, <span class="cpp"></span>, <span class="java"></span>, <span class="python"></span></p>
                                         <p class="maintext2"><span class="blue"> </span> Agender</p>
                                         <p class="maintext2"><span class="purple"> </span> Check <a href="https://twitter.com/MARSUPIALGUTZ" style="color:#00A7E7;">bio</a></p>
                                     </div>
                                 </div>`;
+                var stuff = document.createElement('div');
+                stuff.innerHTML = htmlStr;
+                element.appendChild(stuff);
+                break;
+
+            case "button":
+            
+                var htmlStr = `<p class="maintext">Here's a button for my site that you can use on yours!</p>
+                <a href="https://possums.xyz" target="_blank"><img src="imgs/button.gif" class="imgClass" style="margin-top: -7px;"></a>`;
                 var stuff = document.createElement('div');
                 stuff.innerHTML = htmlStr;
                 element.appendChild(stuff);
