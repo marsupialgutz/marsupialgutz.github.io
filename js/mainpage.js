@@ -82,20 +82,25 @@ this.addEventListener('keypress', event => {
                 line6.className = "maintext animatedFade fade";
                 element.appendChild(line6);
                 var line7 = document.createElement('p');
-                line7.innerHTML = ': <a href="https://keybase.io/marsupialgutz" style="color:#FF6F21;">marsupialgutz</a>';
-                line7.style.color = "#FF6F21";
+                line7.innerHTML = 'ﲄ: <a rel="me" href="https://stop.voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@stop.voring.me</a>';
+                line7.style.color = "#2E9CB5";
                 line7.className = "maintext animatedFade fade";
                 element.appendChild(line7);
                 var line8 = document.createElement('p');
-                line8.innerHTML = ': <a href="mailto:mars@possums.xyz"" style="color:#AC4142;">mars@possums.xyz</a>';
-                line8.style.color = "#AC4142";
+                line8.innerHTML = ': <a href="https://keybase.io/marsupialgutz" style="color:#FF6F21;">marsupialgutz</a>';
+                line8.style.color = "#FF6F21";
                 line8.className = "maintext animatedFade fade";
                 element.appendChild(line8);
                 var line9 = document.createElement('p');
-                line9.innerHTML = 'ﭮ: <a href="https://discord.com/users/449287407142043658" style="color:#5865F2;">Mars ☃#0420</a>';
-                line9.style.color = "#5865F2";
+                line9.innerHTML = ': <a href="mailto:mars@possums.xyz"" style="color:#AC4142;">mars@possums.xyz</a>';
+                line9.style.color = "#AC4142";
                 line9.className = "maintext animatedFade fade";
                 element.appendChild(line9);
+                var line10 = document.createElement('p');
+                line10.innerHTML = 'ﭮ: <a href="https://discord.com/users/449287407142043658" style="color:#5865F2;">Rover#0420</a>';
+                line10.style.color = "#5865F2";
+                line10.className = "maintext animatedFade fade";
+                element.appendChild(line10);
                 break;
 
             case "time":
