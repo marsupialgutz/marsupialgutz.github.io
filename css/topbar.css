@@ -60,6 +60,7 @@ body {
   position: fixed;
   padding: 4px;
   margin: auto;
+  z-index: 999;
 }
 
 .leftbutton {

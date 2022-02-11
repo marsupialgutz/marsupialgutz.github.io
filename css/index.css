@@ -51,7 +51,6 @@ body {
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   width: 700px;
   height: 450px;
@@ -78,14 +77,6 @@ body {
 @-moz-document url-prefix() {
   .main legend {
     width: 95%;
-  }
-
-  #spanny {
-    width: 30%;
-  }
-
-  #spanny2 {
-    width: 36.6%;
   }
 }
 
@@ -228,28 +219,32 @@ body {
 }
 
 .animatedFadeDown {
-  -webkit-animation-duration: 0.7s;
   animation-duration: 0.7s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
 .animatedFade {
-  -webkit-animation-duration: 0.5s;
   animation-duration: 0.5s;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
 
-@-webkit-keyframes fadeInDown {
-  0% {
-    opacity: 0;
-    -webkit-transform: translate(-50%, 0);
-  }
-  100% {
-    opacity: 100%;
-    -webkit-transform: translate(-50%, -50%);
-  }
+.yw-widget-text {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+  border-top: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid #1c1e26;
+  color: #d4d4d4;
+  background-color: #1c1e26;
+}
+
+.yw-widget-text a {
+  color: #f43e5c;
+  text-decoration: none;
 }
 
 @keyframes fadeInDown {
@@ -263,15 +258,6 @@ body {
   }
 }
 
-@-webkit-keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes fade {
   0% {
     opacity: 0;
@@ -282,11 +268,9 @@ body {
 }
 
 .fadeInDown {
-  -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
 }
 
 .fade {
-  -webkit-animation-name: fade;
   animation-name: fade;
 }
