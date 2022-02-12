@@ -200,3 +200,8 @@
   color: #f43e5c;
   text-decoration: none;
 }
+
+.zindexstuff {
+  position: relative;
+  z-index: 2;
+}
