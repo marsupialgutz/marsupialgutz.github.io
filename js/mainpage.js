@@ -3,9 +3,8 @@ this.addEventListener('keypress', event => {
     if (event.key == 'Enter') {
 
         const element = document.getElementById("main");
-        document.getElementById("command").value = document.getElementById("command").value.toLowerCase();
 
-        switch (document.getElementById("command").value) {
+        switch (document.getElementById("command").value.toLowerCase()) {
 
             case "help":
 
