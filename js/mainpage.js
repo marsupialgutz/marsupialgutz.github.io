@@ -9,7 +9,7 @@ this.addEventListener('keypress', event => {
             case "help":
 
                 var para = document.createElement('p');
-                var node = document.createTextNode("Available commands: help, about/fetch, contact, time/time24, ref/sona, clear/cls");
+                var node = document.createTextNode("Available commands: help, mars/tofu/foxy/river, contact, time/time24, ref/sona, clear/cls");
                 para.className = "maintext animatedFade fade";
                 para.appendChild(node);
                 element.appendChild(para);
@@ -28,19 +28,76 @@ this.addEventListener('keypress', event => {
                 element.appendChild(br2);
                 break;
 
-            case "about":
-            case "fetch":
+            case "mars":
 
-                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/icon.png" class="imgClass" style="width: 150px; height: 150px;">
+                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/mard.png" class="imgClass" style="width: 150px; height: 150px;">
                                     <div class="divclass2">
                                         <p class="maintext2"><span class="bold">mars<span class="red">@</span>possums.xyz</span></p>
-                                        <p class="maintext2"><span class="bold pink">════════════════</span></p>
-                                        <p class="maintext2"><span class="red"> </span> Marshall</p>
-                                        <p class="maintext2"><span class="orange"> </span> Arch</p>
-                                        <p class="maintext2"><span class="yellow"> </span> 17 yrs old</p>
-                                        <p class="maintext2"><span class="green"> </span> <span class="js"></span>, <span class="cpp"></span>, <span class="java"></span>, <span class="python"></span></p>
+                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="red"> </span> Mars</p>
+                                        <p class="maintext2"><span class="orange"> </span> Deerdog</p>
+                                        <p class="maintext2"><span class="yellow"> </span> Coding</p>
+                                        <p class="maintext2"><span class="green"> </span> Gay Biro</p>
                                         <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> Check <a href="https://twitter.com/MARSUPIALGUTZ" style="color:#00A7E7;">bio</a></p>
+                                        <p class="maintext2"><span class="purple"> </span> they/pup/paw</p>
+                                    </div>
+                                </div>`;
+                var stuff = document.createElement('div');
+                stuff.innerHTML = htmlStr;
+                element.appendChild(stuff);
+                break;
+
+            case "tofu":
+                
+
+                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/tof.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="divclass2">
+                                        <p class="maintext2"><span class="bold">tofu<span class="red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="red"> </span> Tofu</p>
+                                        <p class="maintext2"><span class="orange"> </span> Cat</p>
+                                        <p class="maintext2"><span class="yellow"> </span> Sleeping</p>
+                                        <p class="maintext2"><span class="green"> </span> Gay Ace</p>
+                                        <p class="maintext2"><span class="blue"> </span> Boyflux</p>
+                                        <p class="maintext2"><span class="purple"> </span> he/they/it</p>
+                                    </div>
+                                </div>`;
+                var stuff = document.createElement('div');
+                stuff.innerHTML = htmlStr;
+                element.appendChild(stuff);
+                break;
+
+            case "foxy":
+
+                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/fozy.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="divclass2">
+                                        <p class="maintext2"><span class="bold">foxy<span class="red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="red"> </span> Foxy</p>
+                                        <p class="maintext2"><span class="orange"> </span> Fox</p>
+                                        <p class="maintext2"><span class="yellow"> </span> Cuddles</p>
+                                        <p class="maintext2"><span class="green"> </span> Biro Ace</p>
+                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
+                                        <p class="maintext2"><span class="purple"> </span> they/them</p>
+                                    </div>
+                                </div>`;
+                var stuff = document.createElement('div');
+                stuff.innerHTML = htmlStr;
+                element.appendChild(stuff);
+                break;
+
+            case "river":
+
+                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/rivr.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="divclass2">
+                                        <p class="maintext2"><span class="bold">river<span class="red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="red"> </span> River</p>
+                                        <p class="maintext2"><span class="orange"> </span> Otter</p>
+                                        <p class="maintext2"><span class="yellow"> </span> Water</p>
+                                        <p class="maintext2"><span class="green"> </span> Aro Ace</p>
+                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
+                                        <p class="maintext2"><span class="purple"> </span> they/them</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
