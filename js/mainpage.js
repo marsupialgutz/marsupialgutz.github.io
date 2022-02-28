@@ -97,7 +97,7 @@ this.addEventListener('keypress', event => {
                                         <p class="maintext2"><span class="yellow"> </span> Water</p>
                                         <p class="maintext2"><span class="green"> </span> Aro Ace</p>
                                         <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> they/them</p>
+                                        <p class="maintext2"><span class="purple"> </span> any - no she</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
