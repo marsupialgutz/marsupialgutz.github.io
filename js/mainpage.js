@@ -9,7 +9,7 @@ this.addEventListener('keypress', event => {
             case "help":
 
                 var para = document.createElement('p');
-                var node = document.createTextNode("Available commands: help, mars/tofu/foxy/river, contact, time/time24, ref/sona, clear/cls");
+                var node = document.createTextNode("Available commands: help, mars/tofu/foxy/river, contact, time/time24, clear/cls");
                 para.className = "maintext animatedFade fade";
                 para.appendChild(node);
                 element.appendChild(para);
@@ -117,7 +117,7 @@ this.addEventListener('keypress', event => {
             case "contact":
 
                 var line1 = document.createElement('p');
-                line1.innerHTML = '海: <a href="https://twitter.com/MARSUPIALGUTZ" style="color:#00A7E7;">@MARSUPIALGUTZ</a>';
+                line1.innerHTML = '海: <a href="https://twitter.com/astrodotjpg" style="color:#00A7E7;">@astrodotjpg</a>';
                 line1.style.color = "#00A7E7";
                 line1.className = "maintext animatedFade fade";
                 element.appendChild(line1);
@@ -127,7 +127,7 @@ this.addEventListener('keypress', event => {
                 line2.className = "maintext animatedFade fade";
                 element.appendChild(line2);
                 var line3 = document.createElement('p');
-                line3.innerHTML = ': <a href="https://t.me/GL4MROCK" style="color:#0088CC;">@GL4MROCK</a>';
+                line3.innerHTML = ': <a href="https://t.me/astrodotjpg" style="color:#0088CC;">@astrodotjpg</a>';
                 line3.style.color = "#0088CC";
                 line3.className = "maintext animatedFade fade";
                 element.appendChild(line3);
@@ -142,15 +142,10 @@ this.addEventListener('keypress', event => {
                 line5.className = "maintext animatedFade fade";
                 element.appendChild(line5);
                 var line6 = document.createElement('p');
-                line6.innerHTML = 'ﳄ: <a rel="me" href="https://voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@voring.me</a>';
+                line6.innerHTML = 'ﳄ: <a rel="me" href="https://stop.voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@stop.voring.me</a>';
                 line6.style.color = "#2E9CB5";
                 line6.className = "maintext animatedFade fade";
                 element.appendChild(line6);
-                var line7 = document.createElement('p');
-                line7.innerHTML = 'ﲄ: <a rel="me" href="https://stop.voring.me/@marsupialgutz" style="color:#2E9CB5;">@marsupialgutz@stop.voring.me</a>';
-                line7.style.color = "#2E9CB5";
-                line7.className = "maintext animatedFade fade";
-                element.appendChild(line7);
                 var line8 = document.createElement('p');
                 line8.innerHTML = ': <a href="https://keybase.io/marsupialgutz" style="color:#FF6F21;">marsupialgutz</a>';
                 line8.style.color = "#FF6F21";
@@ -162,7 +157,7 @@ this.addEventListener('keypress', event => {
                 line9.className = "maintext animatedFade fade";
                 element.appendChild(line9);
                 var line10 = document.createElement('p');
-                line10.innerHTML = 'ﭮ: <a href="https://discord.com/users/449287407142043658" style="color:#5865F2;">Rover#0420</a>';
+                line10.innerHTML = 'ﭮ: <a href="https://discord.com/users/449287407142043658" style="color:#5865F2;">astro 🪐#1969</a>';
                 line10.style.color = "#5865F2";
                 line10.className = "maintext animatedFade fade";
                 element.appendChild(line10);
