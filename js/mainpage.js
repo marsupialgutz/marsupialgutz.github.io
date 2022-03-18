@@ -9,7 +9,7 @@ this.addEventListener('keypress', event => {
             case "help":
 
                 var para = document.createElement('p');
-                var node = document.createTextNode("Available commands: help, mars/tofu/foxy/river, contact, time/time24, clear/cls");
+                var node = document.createTextNode("Available commands: help, mars/tofu/foxy/river, contact, time/time24, nowplaying/np, clear/cls");
                 para.className = "maintext animatedFade fade";
                 para.appendChild(node);
                 element.appendChild(para);
@@ -59,7 +59,7 @@ this.addEventListener('keypress', event => {
                                         <p class="maintext2"><span class="yellow"> </span> Sleeping</p>
                                         <p class="maintext2"><span class="green"> </span> Gay Ace</p>
                                         <p class="maintext2"><span class="blue"> </span> Boyflux</p>
-                                        <p class="maintext2"><span class="purple"> </span> he/they/it</p>
+                                        <p class="maintext2"><span class="purple"> </span> they/he/it</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -78,7 +78,7 @@ this.addEventListener('keypress', event => {
                                         <p class="maintext2"><span class="yellow"> </span> Cuddles</p>
                                         <p class="maintext2"><span class="green"> </span> Biro Ace</p>
                                         <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> they/them</p>
+                                        <p class="maintext2"><span class="purple"> </span> any (no she)</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -97,7 +97,7 @@ this.addEventListener('keypress', event => {
                                         <p class="maintext2"><span class="yellow"> </span> Water</p>
                                         <p class="maintext2"><span class="green"> </span> Aro Ace</p>
                                         <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> any - no she</p>
+                                        <p class="maintext2"><span class="purple"> </span> they/it</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -212,7 +212,7 @@ this.addEventListener('keypress', event => {
             case "gay":
 
                 var img = document.createElement('img');
-                img.src = "imgs/gay.png";
+                img.src = "imgs/gay.webp";
                 img.width = img.width / 11.3;
                 img.className = "imgClass animatedFade fade";
                 element.appendChild(img);
