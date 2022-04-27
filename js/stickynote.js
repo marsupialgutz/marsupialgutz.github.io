@@ -2,14 +2,17 @@ if (localStorage.getItem("title") != null) {
     var title = localStorage.getItem("title");
     document.getElementById("title").value = localStorage.getItem("title").replace(/&lt;/g, "<").replace(/&gt;/g, ">");
     if (localStorage.getItem("title") != "") {
-        document.getElementById("spanny2").innerHTML = "Note: " + localStorage.getItem("title");
+        if (localStorage.getItem("title").length < 13)
+            document.getElementById("spanny2").innerHTML = "Note: " + localStorage.getItem("title");
+        else
+            document.getElementById("spanny2").innerHTML = "Note: " + localStorage.getItem("title").substring(0, 13) + "...";
     } else {
         document.getElementById("spanny2").innerHTML = "Note: Untitled";
     }
 }
 
 if (localStorage.getItem("content") != null) {
-    document.getElementById("content").value = localStorage.getItem("content");
+    document.getElementById("content").value = localStorage.getItem("content").substring(0, 735);
 }
 
 this.addEventListener('keydown', event => {
@@ -29,11 +32,14 @@ this.addEventListener('keypress', event => {
     if (event.key == 'Enter' && !event.shiftKey) {
         event.preventDefault();
         var title = document.getElementById("title").value.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-        var content = document.getElementById("content").value;
+        var content = document.getElementById("content").value.substring(0, 735);
         localStorage.setItem("title", title);
         localStorage.setItem("content", content);
         if (title != "") {
-            document.getElementById("spanny2").innerHTML = "Note: " + title;
+            if (title.length < 13)
+                document.getElementById("spanny2").innerHTML = "Note: " + title;
+            else
+                document.getElementById("spanny2").innerHTML = "Note: " + title.substring(0, 13) + "...";
         } else {
             document.getElementById("spanny2").innerHTML = "Note: Untitled";
         }

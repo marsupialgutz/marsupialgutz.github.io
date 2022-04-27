@@ -1,0 +1,74 @@
+// Colors
+$color-red: #f43e5c;
+$color-orange: #b58900;
+$color-yellow: #fbc3a7;
+$color-green: #29d398;
+$color-blue: #26bbd9;
+$color-darkblue: #306998;
+$color-pink: #ee64ae;
+$color-purple: #928bcf;
+$color-white: #d4d4d4;
+$color-black: #1c1e26;
+$color-bg: #1c1e26dd;
+$color-overlay: #1c1e26bb;
+$color-scrollbar-thumb: #73747833;
+$color-scrollbar-thumb-hover: $color-red;
+$color-expand: #29d398;
+$color-minimize: #fab795;
+$color-close: #e95678;
+$color-js: #f7df1e;
+$color-java: #f29111;
+$color-rust: #e33b26;
+
+// Other variables
+$font-size-base: 1.1rem;
+$font-size-small: 0.9rem;
+$font-size-tiny: 0.8rem;
+$font-size-large: 1.2rem;
+
+// Font
+@font-face {
+  font-family: "JetBrainsMono Nerd Font Mono";
+  src: local("JetBrainsMono Nerd Font Mono"),
+    url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.woff2) format("woff2");
+  font-display: swap;
+}
+
+html * {
+  font-family: "JetBrainsMono Nerd Font Mono";
+  font-display: swap;
+  font-size: $font-size-base;
+}
+
+body {
+  background-image: url("../imgs/wallpaper.webp");
+  background-color: $color-black;
+  color: $color-white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+}
+
+// Scrollbars
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-scrollbar-thumb;
+  border-radius: 10px;
+
+  &:hover {
+    background: $color-scrollbar-thumb-hover;
+  }
+}

@@ -30,16 +30,16 @@ this.addEventListener('keypress', event => {
 
             case "mars":
 
-                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/mard.png" class="imgClass" style="width: 150px; height: 150px;">
-                                    <div class="divclass2">
-                                        <p class="maintext2"><span class="bold">mars<span class="red">@</span>possums.xyz</span></p>
-                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
-                                        <p class="maintext2"><span class="red"> </span> Mars</p>
-                                        <p class="maintext2"><span class="orange"> </span> Deerdog</p>
-                                        <p class="maintext2"><span class="yellow"> </span> Coding</p>
-                                        <p class="maintext2"><span class="green"> </span> Gay Biro</p>
-                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> they/pup/paw</p>
+                var htmlStr = `<div class="inline-flex animatedFade fade"><img src="https://possums.xyz/imgs/mard.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="inline-flex2">
+                                        <p class="maintext2"><span class="bold-text">mars<span class="color-red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold-text pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="color-red"> </span> Mars</p>
+                                        <p class="maintext2"><span class="color-orange"> </span> Deerdog</p>
+                                        <p class="maintext2"><span class="color-yellow"> </span> Coding</p>
+                                        <p class="maintext2"><span class="color-green"> </span> Gay Biro</p>
+                                        <p class="maintext2"><span class="color-blue"> </span> Agender</p>
+                                        <p class="maintext2"><span class="color-purple"> </span> they/pup/paw</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -48,18 +48,18 @@ this.addEventListener('keypress', event => {
                 break;
 
             case "tofu":
-                
 
-                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/tof.png" class="imgClass" style="width: 150px; height: 150px;">
-                                    <div class="divclass2">
-                                        <p class="maintext2"><span class="bold">tofu<span class="red">@</span>possums.xyz</span></p>
-                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
-                                        <p class="maintext2"><span class="red"> </span> Tofu</p>
-                                        <p class="maintext2"><span class="orange"> </span> Cat</p>
-                                        <p class="maintext2"><span class="yellow"> </span> Sleeping</p>
-                                        <p class="maintext2"><span class="green"> </span> Gay Ace</p>
-                                        <p class="maintext2"><span class="blue"> </span> Boyflux</p>
-                                        <p class="maintext2"><span class="purple"> </span> they/he/it</p>
+
+                var htmlStr = `<div class="inline-flex animatedFade fade"><img src="https://possums.xyz/imgs/tof.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="inline-flex2">
+                                        <p class="maintext2"><span class="bold-text">tofu<span class="color-red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold-text pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="color-red"> </span> Tofu</p>
+                                        <p class="maintext2"><span class="color-orange"> </span> Cat</p>
+                                        <p class="maintext2"><span class="color-yellow"> </span> Sleeping</p>
+                                        <p class="maintext2"><span class="color-green"> </span> Gay Ace</p>
+                                        <p class="maintext2"><span class="color-blue"> </span> Boyflux</p>
+                                        <p class="maintext2"><span class="color-purple"> </span> they/he/it</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -69,16 +69,16 @@ this.addEventListener('keypress', event => {
 
             case "foxy":
 
-                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/fozy.png" class="imgClass" style="width: 150px; height: 150px;">
-                                    <div class="divclass2">
-                                        <p class="maintext2"><span class="bold">foxy<span class="red">@</span>possums.xyz</span></p>
-                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
-                                        <p class="maintext2"><span class="red"> </span> Foxy</p>
-                                        <p class="maintext2"><span class="orange"> </span> Fox</p>
-                                        <p class="maintext2"><span class="yellow"> </span> Cuddles</p>
-                                        <p class="maintext2"><span class="green"> </span> Biro Ace</p>
-                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> any (no she)</p>
+                var htmlStr = `<div class="inline-flex animatedFade fade"><img src="https://possums.xyz/imgs/fozy.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="inline-flex2">
+                                        <p class="maintext2"><span class="bold-text">foxy<span class="color-red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold-text pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="color-red"> </span> Foxy</p>
+                                        <p class="maintext2"><span class="color-orange"> </span> Fox</p>
+                                        <p class="maintext2"><span class="color-yellow"> </span> Cuddles</p>
+                                        <p class="maintext2"><span class="color-green"> </span> Biro Ace</p>
+                                        <p class="maintext2"><span class="color-blue"> </span> Agender</p>
+                                        <p class="maintext2"><span class="color-purple"> </span> any (no she)</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -88,16 +88,16 @@ this.addEventListener('keypress', event => {
 
             case "river":
 
-                var htmlStr = `<div class="divclass animatedFade fade"><img src="https://possums.xyz/imgs/rivr.png" class="imgClass" style="width: 150px; height: 150px;">
-                                    <div class="divclass2">
-                                        <p class="maintext2"><span class="bold">river<span class="red">@</span>possums.xyz</span></p>
-                                        <p class="maintext2"><span class="bold pink">══════════════</span></p>
-                                        <p class="maintext2"><span class="red"> </span> River</p>
-                                        <p class="maintext2"><span class="orange"> </span> Otter</p>
-                                        <p class="maintext2"><span class="yellow"> </span> Water</p>
-                                        <p class="maintext2"><span class="green"> </span> Aro Ace</p>
-                                        <p class="maintext2"><span class="blue"> </span> Agender</p>
-                                        <p class="maintext2"><span class="purple"> </span> they/it</p>
+                var htmlStr = `<div class="inline-flex animatedFade fade"><img src="https://possums.xyz/imgs/rivr.png" class="imgClass" style="width: 150px; height: 150px;">
+                                    <div class="inline-flex2">
+                                        <p class="maintext2"><span class="bold-text">river<span class="color-red">@</span>possums.xyz</span></p>
+                                        <p class="maintext2"><span class="bold-text pink">══════════════</span></p>
+                                        <p class="maintext2"><span class="color-red"> </span> River</p>
+                                        <p class="maintext2"><span class="color-orange"> </span> Otter</p>
+                                        <p class="maintext2"><span class="color-yellow"> </span> Water</p>
+                                        <p class="maintext2"><span class="color-green"> </span> Aro Ace</p>
+                                        <p class="maintext2"><span class="color-blue"> </span> Agender</p>
+                                        <p class="maintext2"><span class="color-purple"> </span> they/it</p>
                                     </div>
                                 </div>`;
                 var stuff = document.createElement('div');
@@ -106,7 +106,7 @@ this.addEventListener('keypress', event => {
                 break;
 
             case "button":
-            
+
                 var htmlStr = `<p class="maintext">Here's a button for my site that you can use on yours!</p>
                 <a href="https://possums.xyz" target="_blank"><img src="imgs/button.gif" class="imgClass" style="margin-top: -7px;"></a>`;
                 var stuff = document.createElement('div');

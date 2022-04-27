@@ -1,51 +1,11 @@
-@font-face {
-  font-family: "JetBrainsMono Nerd Font Mono";
-  src: local("JetBrainsMono Nerd Font Mono"), url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.woff2) format("woff2");
-  font-display: swap;
-}
-html * {
-  font-family: "JetBrainsMono Nerd Font Mono";
-  font-display: swap;
-  font-size: 1.1rem;
-}
-
-body {
-  background-image: url("../imgs/wallpaper.webp");
-  background-color: #1c1e26;
-  color: #d4d4d4;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(115, 116, 120, 0.2);
-  border-radius: 10px;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #f43e5c;
-}
+@import "main";
 
 .container {
   display: flex;
 }
 
 .title {
-  font-size: 1.2rem;
+  font-size: $font-size-large;
   font-weight: bold;
   color: #f43e5c;
   text-align: center;
@@ -69,7 +29,7 @@ body {
 }
 
 .white {
-  color: #d4d4d4;
+  color: $color-white;
   text-align: center;
   max-width: 500px;
 }
@@ -79,9 +39,12 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-}
-.img1-wrap:hover .overlay {
-  height: 20%;
+
+  &:hover {
+    .overlay {
+      height: 20%;
+    }
+  }
 }
 
 .image {
@@ -101,7 +64,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(28, 30, 38, 0.7333333333);
+  background-color: $color-overlay;
   overflow: hidden;
   border-radius: 0px 0px 4.5px 4.5px;
   width: 100%;
@@ -110,7 +73,7 @@ body {
 }
 
 .link {
-  color: #f43e5c;
+  color: $color-red;
   text-decoration: none;
 }
 
@@ -123,8 +86,8 @@ body {
 
 .text {
   white-space: nowrap;
-  color: #d4d4d4;
-  font-size: 1.1rem;
+  color: $color-white;
+  font-size: $font-size-base;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -137,16 +100,16 @@ body {
 }
 
 .text1 {
-  font-size: 1.1rem;
+  font-size: $font-size-base;
   text-align: center;
-  color: #1c1e26;
+  color: $color-black;
   margin: 0;
 }
 
 .text2 {
-  font-size: 1.1rem;
+  font-size: $font-size-base;
   text-align: center;
-  color: #d4d4d4;
+  color: $color-white;
   margin: 0;
 }
 
@@ -163,5 +126,3 @@ body {
     margin-bottom: 10px;
   }
 }
-
-/*# sourceMappingURL=sona.css.map */

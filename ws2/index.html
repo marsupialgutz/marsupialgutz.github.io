@@ -18,43 +18,45 @@
     <link rel="shortcut icon" href="../imgs/icon.png">
 </head>
 
-<body style="background-image: none !important;">
-    <div class="topbar flexbox container">
+<body style="background-image: none !important; overflow: hidden;">
+    <div class="topbar flexbox container" id="bar">
         <div class="box">
             <div class="leftbutton">
-                <p class="centered" style="font-size: 22px !important;"></p>
+                <p class="centered"></p>
             </div>
             <a class="buttony" href="..">
                 <button class="left2" style="margin-left: 5px; background: none; border: none; box-sizing: border-box; padding-top: 3px;">
-                    <p class="centered" style="font-size: 22px !important;"></p>
+                    <p class="centered"></p>
                 </button>
             </a>
             <div class="left1" style="margin-left: 0; box-sizing: border-box; padding-top: 3px;">
-                <p class="centered" style="font-size: 22px !important;"></p>
+                <p class="centered"></p>
             </div>
             <a class="buttony" href="../ws3">
                 <button class="left2" style="background: none; border: none; box-sizing: border-box; padding-top: 3px;">
-                    <p class="centered" style="font-size: 22px !important;"></p>
+                    <p class="centered"></p>
                 </button>
             </a>
         </div>
         <div class="box">
             <div class="spotstatus flexbox">
-                <p class="centered" style="font-size: 22px !important;"></p>
+                <p class="centered"></p>
                 <p id="spotstatus" class="centered" style="padding-left: 7px; padding-right: 7px;"></p>
             </div>
         </div>
         <div class="box">
             <div class="time flexbox"">
-                <p id="timeIcon" class="centered" style="font-size: 22px !important;"></p>
+                <p id="timeIcon" class="centered"></p>
                 <p onclick="check()" id="time" class="centered" style="padding-left:7px; padding-right: 10px;"></p>
             </div>
             <div class="rightbutton">
-                <p class="centered" style="font-size: 22px !important;">襤</p>
+                <p class="centered">襤</p>
             </div>
         </div>
     </div>
-    <iframe title="sona page" src="https://possums.xyz/ws2/sona/index.html" frameBorder="0" style="width: 100%; height: 100%;"></iframe>
+    <iframe id="frame" title="sona page" src="ws2/sona/index.html" frameBorder="0" style="width: 100%; margin-top: 48px;"></iframe>
     <script type="text/javascript" src="../js/topbar.js"></script>
     <script type="text/javascript" src="../js/wsswitcher.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/sona.js"></script>
 </body>

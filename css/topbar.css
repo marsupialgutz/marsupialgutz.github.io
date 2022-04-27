@@ -1,20 +1,18 @@
 @font-face {
   font-family: "JetBrainsMono Nerd Font Mono";
-  src: local("JetBrainsMono Nerd Font Mono"),
-    url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.woff2) format("woff2");
+  src: local("JetBrainsMono Nerd Font Mono"), url(../fonts/JetBrainsMonoNerdFontCompleteM-Regular.woff2) format("woff2");
   font-display: swap;
 }
-
 html * {
   font-family: "JetBrainsMono Nerd Font Mono";
   font-display: swap;
+  font-size: 1.1rem;
 }
 
 body {
-  font-size: 17px;
+  background-image: url("../imgs/wallpaper.webp");
   background-color: #1c1e26;
   color: #d4d4d4;
-  background-image: url("../imgs/wallpaper.webp");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -24,34 +22,22 @@ body {
   left: 0px;
   right: 0px;
   margin: auto;
-  overflow: hidden;
 }
 
-.container {
-  display: flex;
+::-webkit-scrollbar {
+  width: 10px;
 }
 
-.box {
-  flex: 1;
-  display: flex;
-  height: 100%;
+::-webkit-scrollbar-track {
+  border-radius: 10px;
 }
 
-.box:first-child {
-  margin-right: auto;
+::-webkit-scrollbar-thumb {
+  background: rgba(115, 116, 120, 0.2);
+  border-radius: 10px;
 }
-
-.box:last-child {
-  justify-content: flex-end;
-}
-
-.buttony {
-  text-decoration: none;
-}
-
-.flexbox {
-  display: flex;
-  align-items: center;
+::-webkit-scrollbar-thumb:hover {
+  background: #f43e5c;
 }
 
 .topbar {
@@ -64,6 +50,34 @@ body {
   margin: auto;
   z-index: 999;
 }
+.topbar * {
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+}
+
+.flexbox {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  height: 100%;
+}
+.box:first-child {
+  margin-right: auto;
+}
+.box:last-child {
+  justify-content: flex-end;
+}
+
+.buttony {
+  text-decoration: none;
+}
 
 .leftbutton {
   background-color: #306998;
@@ -75,7 +89,6 @@ body {
 }
 
 .left1 {
-  font-size: 19px;
   margin-left: 5px;
   color: #f43e5c;
   border-bottom: 2px solid #f43e5c;
@@ -87,7 +100,6 @@ body {
 }
 
 .left2 {
-  font-size: 19px;
   color: #306998;
   padding-bottom: 2px;
   width: 50px;
@@ -97,7 +109,6 @@ body {
   justify-content: center;
   transition: 0.25s ease;
 }
-
 .left2:hover {
   color: #f43e5c;
 }
@@ -128,3 +139,5 @@ body {
     display: none;
   }
 }
+
+/*# sourceMappingURL=topbar.css.map */

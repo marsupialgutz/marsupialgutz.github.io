@@ -32,7 +32,10 @@ setInterval(updateClock, 1000);
 
 async function getSpotStatus() {
     var json_obj = await (await fetch("https://possums.xyz/nowplaying/song")).json();
-    document.getElementById('spotstatus').innerHTML = json_obj;
+    if (json_obj.length > 42)
+        document.getElementById('spotstatus').innerHTML = json_obj.substring(0, 42) + "...";
+    else
+        document.getElementById('spotstatus').innerHTML = json_obj;
 }
 
 getSpotStatus();
