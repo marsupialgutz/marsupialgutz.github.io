@@ -15,19 +15,6 @@ this.addEventListener('keypress', event => {
                 element.appendChild(para);
                 break;
 
-            case "nowplaying":
-            case "np":
-
-                var img = document.createElement('img');
-                var br = document.createElement('br');
-                var br2 = document.createElement('br');
-                img.src = "https://possums.xyz/nowplaying/song.png";
-                img.className = "imgClass animatedFade fade";
-                element.appendChild(br);
-                element.appendChild(img);
-                element.appendChild(br2);
-                break;
-
             case "mars":
 
                 var htmlStr = `<div class="inline-flex animatedFade fade"><img src="https://possums.xyz/imgs/mard.png" class="imgClass" style="width: 150px; height: 150px;">

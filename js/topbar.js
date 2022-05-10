@@ -39,4 +39,4 @@ async function getSpotStatus() {
 }
 
 getSpotStatus();
-setInterval(getSpotStatus, 30000);
+setInterval(getSpotStatus, 3000);
