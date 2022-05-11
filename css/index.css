@@ -290,4 +290,18 @@ body {
   animation-name: fade;
 }
 
+@-moz-document url-prefix() {
+  .main legend {
+    width: 95%;
+  }
+
+  #spanny {
+    width: 30%;
+  }
+
+  #spanny2 {
+    width: 36.6%;
+  }
+}
+
 /*# sourceMappingURL=index.css.map */
